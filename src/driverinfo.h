@@ -26,6 +26,8 @@
 
 namespace odbc {
 
+  using ODBCDriverInfoError = std::runtime_error;
+
   class Connection;
 
   class ODBCXX_EXPORT DriverInfo {
